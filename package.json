@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.prod.js",
+    "start": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.dev.js",
+    "server": "json-server --watch ./db.json"
   },
   "repository": {
     "type": "git",
