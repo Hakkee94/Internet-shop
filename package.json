@@ -12,14 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hakkee94/David-layout.git"
+    "url": "https://github.com/Hakkee94/Internet-shop-app.git"
   },
   "author": "David",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hakkee94/David-layout/issues"
-  },
-  "homepage": "https://github.com/Hakkee94/David-layout#readme",
+  "homepage": "https://hakkee94.github.io/Internet-shop-app",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/preset-env": "^7.16.11",
