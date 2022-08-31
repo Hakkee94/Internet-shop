@@ -1,0 +1,153 @@
+header {
+  background: #353535;
+}
+
+input {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: solid 0.5px;
+}
+
+.special-link {
+  text-decoration: none;
+  color: #f5f5f7;
+}
+
+.special-link:hover {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.title {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.main-list {
+  padding-bottom: 15px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px black;
+  padding: 10px;
+  height: fit-content;
+  flex-direction: column;
+  border-radius: 9px;
+  margin: 25px;
+  max-width: 350px;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.cart-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-header {
+  padding-left: 20px;
+}
+
+.products-list {
+  padding-left: 25px;
+}
+
+.add-to-cart-btn {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.clear-cart {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  margin-left: 24px;
+}
+
+#delete-product {
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  margin-left: 24px;
+}
+
+#back_0 {
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}
+
+#forward_0 {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}

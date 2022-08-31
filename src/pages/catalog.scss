@@ -1,0 +1,167 @@
+header {
+  background: #353535;
+}
+
+.internet-shop h2 {
+  color: #f5f5f7;
+}
+
+.title {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.main-list {
+  padding-bottom: 15px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: none;
+  width: 100px;
+  height: 150px;
+
+  &.active {
+    display: block;
+  }
+}
+
+
+#add-image {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}
+
+#delete-product {
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.new-product-name > input {
+  margin-right: 107px;
+}
+
+.images > input {
+  padding-left: 5px;
+}
+
+.add-product-input {
+  padding-left: 5px;
+}
+
+.add-price-input {
+  padding-left: 5px;
+}
+
+#back_0 {
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#forward_0 {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}
+
+input {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: solid 0.5px;
+}
+
+.item-count {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-container {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#gallery_0 {
+  margin-bottom: 10px;
+}
+
+span {
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.special-link {
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.addNewBtn {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+}

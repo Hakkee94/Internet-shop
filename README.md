@@ -1,2 +1,2 @@
 # Internet-shop
-using vanilla js
+using vanilla jssss
