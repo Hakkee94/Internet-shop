@@ -127,7 +127,7 @@ export const viewCardProducts = (array, count, allItems, amount, imagesFormField
         console.log(productPrice)
         productInput.value = product.count
         console.log(imagesFormField)
-        productElement.append(productName, productInput, productPrice, currency, imagesFormField)
+        productElement.append(productName, productInput, productPrice, currency, (imagesFormField || ''))
         cartList.prepend(productElement)
     })
     const prodListInputs = document.querySelectorAll('.products-list input')
@@ -136,7 +136,7 @@ export const viewCardProducts = (array, count, allItems, amount, imagesFormField
     })
     countItems.innerText = count
     totalItems.innerText = allItems
-    totalAmount.innerText = amount
+    totalAmount.innerText = amount || 0
     console.log(allItems)
 }
 
