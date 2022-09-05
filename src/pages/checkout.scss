@@ -8,6 +8,22 @@ input {
   border: solid 0.5px;
 }
 
+#added-products {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: none;
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+
+  &.active {
+    display: block;
+  }
+}
+
 .special-link {
   text-decoration: none;
   color: #f5f5f7;
@@ -28,7 +44,12 @@ h2 {
 }
 
 .main-list {
-  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-list span {
+  font-size: 20px;
 }
 
 .main-menu {

@@ -26,6 +26,7 @@ export const viewProducts = (carriedCallback, inputType, inputEvent) => {
     if (newProductBtn) newProductBtn.setAttribute('disabled', 'true')
     array.forEach((product, index) => {
         const productElement = document.createElement('div')
+        productElement.setAttribute('class', 'product-cart')
         const productName = document.createElement('span')
         const productPrice = document.createElement('span')
         productName.setAttribute('class', 'product-name')
