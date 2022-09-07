@@ -123,7 +123,7 @@ export const viewCardProducts = (array, count, allItems, amount, imagesFormField
         const productPrice = document.createElement('span')
         const currency = document.createElement('span')
         productPrice.innerText = product.price
-        currency.innerText = ' Rub'
+        currency.innerText = ' Рублей'
         // productName.innerText = newproduct.price
         console.log(productPrice)
         productInput.value = product.count

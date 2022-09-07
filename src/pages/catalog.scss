@@ -5,6 +5,7 @@ header {
 #added-products {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-menu {
@@ -29,7 +30,37 @@ header {
 
 .product-cart {
   padding: 10px;
+  border: 1px solid;
+  margin: 10px;
+  background: #f4f4f4;
+  //box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: center;
 }
+
+.img-container > button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-width: 28px;
+  border-radius: 3px;
+  background: #0071e3;
+  color: #fff;
+  margin: 15px 5px 15px;
+}
+
+.img-container div {
+  display: flex;
+  justify-content: center;
+}
+
 
 .internet-shop h2 {
   color: #f5f5f7;
