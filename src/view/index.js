@@ -38,9 +38,12 @@ export const viewProducts = (carriedCallback, inputType, inputEvent) => {
         productPrice.innerText = product.price
         productInput.setAttribute('type', inputType)
         productInput.value = product.count
+        const productInfo = document.createElement('div')
+        productInfo.append(productName, productPrice, productInput)
+        productInfo.setAttribute('class', 'product-info')
         const changeCurrentProduct = carriedCallback(index)
         productInput.addEventListener(inputEvent, (event) => changeCurrentProduct(event.target))
-        productElement.append(productName, productInput, productPrice, currency, createGallery(product, index))
+        productElement.append(productInfo, currency, createGallery(product, index))
         productsList.prepend(productElement)
     })
     console.log(array)
@@ -57,10 +60,10 @@ const createGallery = (product, index) => {
 
 
     backBtn.setAttribute('id', 'back_' + index)
-    backBtn.innerText = 'back'
+    backBtn.innerText = 'Назад'
     const forwardBtn = document.createElement('button')
     forwardBtn.setAttribute('id', 'forward_' + index)
-    forwardBtn.innerText = 'forward'
+    forwardBtn.innerText = 'Вперед'
     product.imageList.forEach((item, key) => {
         const imgTag = document.createElement('img')
         imgTag.setAttribute('src', item)
@@ -122,10 +125,12 @@ export const viewCardProducts = (array, count, allItems, amount, imagesFormField
         const productInput = document.createElement('input')
         const productPrice = document.createElement('span')
         const currency = document.createElement('span')
+        productElement.setAttribute('class', 'product-item')
         productPrice.innerText = product.price
-        currency.innerText = ' Рублей'
-        // productName.innerText = newproduct.price
+        currency.innerText = 'Рублей'
         console.log(productPrice)
+        productName.innerText = product.name
+        console.log(product.name)
         productInput.value = product.count
         console.log(imagesFormField)
         productElement.append(productName, productInput, productPrice, currency, (imagesFormField || ''))
